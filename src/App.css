@@ -12,11 +12,9 @@ body, html {
 
 #background-image {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url(bg.jpg);
-  position: fixed;
   background-size: cover;
-  width: 100vw;
   background-repeat: no-repeat;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .container {
